@@ -1,0 +1,8 @@
+#Question:
+#Find the runner up score on sports day from a array of n values
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    s= set(arr)
+    y=sorted(s,reverse=True)
+    print(y[1])
