@@ -1,0 +1,15 @@
+#Question:
+#You are asked to ensure that the first and last names of people begin with a capital letter in their passports. Given a full name, your task is to capitalize the name appropriately.
+
+import math
+import os
+import random
+import re
+import sys
+
+
+def solve(s):
+    full_name= ''
+    t=s.split(' ')
+    r= (i.capitalize() for i in t)
+    return (' ').join(r)
